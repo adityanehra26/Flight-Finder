@@ -3,7 +3,7 @@ import requests
 class FlightData:
     #This class is responsible for structuring the flight data.
     def __init__(self):
-        self.header = {'apikey': "7o5ryRrAi-ojU0t3X2QO2c76tK3lLFHp"}
+        self.header = {'apikey': " "}
         self.__flight_search_endpoint = "https://tequila-api.kiwi.com"
 
     def find_iata_code(self, sheet_data):
