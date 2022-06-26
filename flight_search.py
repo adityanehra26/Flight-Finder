@@ -5,8 +5,8 @@ from datetime import datetime
 class FlightSearch:
 
     # This class is responsible for talking to the Flight Search API.
-    API_KEY = "7o5ryRrAi-ojU0t3X2QO2c76tK3lLFHp"
-    header = {'apikey': "7o5ryRrAi-ojU0t3X2QO2c76tK3lLFHp"}
+    API_KEY = " "
+    header = {'apikey': " "}
 
     def __init__(self, **kwargs):
         self.__flight_search_endpoint = "https://tequila-api.kiwi.com/v2"
