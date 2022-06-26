@@ -38,9 +38,9 @@ class DataManager:
             j+= 1
 
         if send_mail:
-            mail_id = "studydemo26@gmail.com"
-            password = "Root@2021"
-            send_to = "gullupagal@gmail.com"
+            mail_id = #sender mail
+            password = " "
+            send_to = " "
             with smtplib.SMTP("smtp.gmail.com") as connection:
                 connection.starttls()
                 connection.login(user=mail_id, password=password)
